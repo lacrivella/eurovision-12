@@ -4,3 +4,5 @@ import fs from 'fs';
 const entries = fs.readFileSync('eurovision.csv', {
   encoding: 'utf-8',
 });
+
+console.log(entries);

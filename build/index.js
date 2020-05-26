@@ -8,3 +8,4 @@ var fs_1 = __importDefault(require("fs"));
 var entries = fs_1.default.readFileSync('eurovision.csv', {
     encoding: 'utf-8',
 });
+console.log(entries);

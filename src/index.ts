@@ -1,8 +1,5 @@
 import fs from 'fs';
+import { CsvFileReader } from './CsvFileReader';
 
-//add .csv file into code and then console log entries
-const entries = fs.readFileSync('eurovision.csv', {
-  encoding: 'utf-8',
-});
-
-console.log(entries);
+const csvFileReader = new CsvFileReader('euroviosion.csv');
+console.log(csvFileReader);
